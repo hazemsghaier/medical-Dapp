@@ -1,0 +1,126 @@
+
+.wrapper{
+    color: #000;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    min-width: 60vh;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #dcc9c9;
+}
+.form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+    border-radius: 40px;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+    color: #000;
+}
+.input-box::placeholder{
+    color: #000;
+}
+.input-box .icon{
+    position: absolute;
+    right:20px ;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    
+}
+.wrapper .remeber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remeber-forgot label input{
+    accent-color: white;
+    margin-right: 4px;
+}
+.remeber-forgot a{
+    color: #000;
+    text-decoration: none;
+}
+.remeber-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper button{
+    height: 45px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 35px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.wrapper button:hover{
+    background-color: black;
+    color: #fff;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.register-link p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover a{
+    color: #fff;
+}
+
+@media screen and (max-width:850px) {
+    .wrapper{
+        margin: 4rem 2rem;
+    }
+    .wrapper form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    .wrapper button{
+        display: grid;
+        height: 45px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 35px;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        font-size: 16px;
+        color: #000;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,36 @@
+.btn0{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.btn0:hover{
+    background-color: white;
+    color: black;
+}
+.btn1{
+    padding: 5px;
+    background-color: #c40909;
+    color: white;
+    border-radius: 5px;
+}
+.btn1:hover{
+    background-color: white;
+    color: #c40909;
+}
+.btn2{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: white;
+    color: green;
+}
+.hidden{
+    display: none;
+}
+.nonhidden{
+    display: block;
+}

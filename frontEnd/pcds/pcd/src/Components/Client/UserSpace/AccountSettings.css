@@ -1,0 +1,87 @@
+.accountsettings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 20px); /* largeur de 100% moins 20px pour les marges gauche et droite */
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgb(230, 222, 212);
+}
+.head{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 30px;
+    margin-top: 10px;
+    color: rgb(78, 47, 216);
+}
+.mainbutton1{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem;
+    cursor: pointer;
+    color: rgb(78, 47, 216);
+}
+.mainbutton1:hover{
+    color: white;
+    transform: scale(1.1);
+    background-color: rgb(78, 47, 216);
+    transition: all 0.7s ease-in-out;
+}
+.accountsettings .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-left: 700px;
+
+}
+.accountsettings .form .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 10px;
+}
+.accountsettings .form .form-group label{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.accountsettings .form .form-group input{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.accountsettings .form .form-group input:focus{
+    border: 2px solid black;
+}
+.form-group1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 45%;
+    margin: 10px;
+}
+.form-group1 input[type='file'] {
+    margin-right: 10px;
+  }
+  
+  .form-group1 img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 10px;
+  }

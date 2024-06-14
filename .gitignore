@@ -1,0 +1,186 @@
+# Node modules for both backend and frontend
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Babel
+.babelrc
+
+# Cache files
+.cache/
+.parcel-cache/
+
+# ESLint
+.eslintcache
+
+# Next.js
+.next/
+
+# Gatsby files
+.cache/
+public/
+
+# Production files
+build/
+dist/
+
+# Static files
+/static
+/static/*
+
+# Miscellaneous
+.DS_Store
+*.pem
+
+# IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Trashes
+.Trashes
+
+# Icon?
+Icon?
+.iconset
+
+# Apple Python
+.python-version
+
+# VS Code
+.vscode/
+.history/
+
+# React Native
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.lock
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+
+# Sentry CLI
+.sentryclirc
+
+# dotenv environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Storybook files
+.storybook/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Parcel
+.cache/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Nuxt.js
+.nuxt/
+
+# vuepress
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Grunt
+.grunt
+
+# Rails
+.redcar/
+
+# Redcar project directory
+.redcar/
+
+# heroku
+/.buildpacks
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# dotenv environment variables file
+.env
+
+# dotenv environment variables file
+.env
+.env.test
+
+# lerna
+lerna-debug.log
+
+# Mac System files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows System files
+Thumbs.db
+ehthumbs.db
+
+# Linux System files
+*.swp
+
+# Truffle
+build/
+contracts/*.json
+*.secrets.json
+
+# Ganache
+*.log
+.chain
+
+# MetaMask
+.metamaskrc

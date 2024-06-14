@@ -1,0 +1,109 @@
+.centered{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center ;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 30px 40px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    min-width: 60vh;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #e3e2e2;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.text {
+    color : black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 9px;
+}
+.input .icon{
+    margin : 0px 10px;
+}
+.input input {
+    height:25px;
+    width: 350px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #000 ;
+    font-size: 13px;
+    padding: 15px;
+    margin: 9px;
+}
+.input .date{
+    margin-left: 50px;
+}
+.secretkey{
+    margin-top: 9px;
+}
+.secretkey .icon{
+    margin-left: 5px;
+}
+.secretkey input {
+    height:25px;
+    width: 350px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    color: #000 ;
+    font-size: 13px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 4px;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 60px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 5px;
+}
+.submit:hover{
+    letter-spacing: 1px;
+}
+.gray{
+    background: #fff;
+    color: #000;
+}
